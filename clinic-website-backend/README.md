@@ -1,4 +1,4 @@
-# Care Scan & Diagnostic Centre – website + backend
+# Kare Scan Center – website + backend
 
 One FastAPI app serves **the public website**, **the booking API** and **a staff dashboard**.
 

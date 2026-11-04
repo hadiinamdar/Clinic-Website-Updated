@@ -115,7 +115,7 @@ class ApiTests(unittest.TestCase):
     def test_site_pages(self):
         home = self.c.get("/")
         self.assertEqual(home.status_code, 200)
-        self.assertIn("Care Scan", home.text)
+        self.assertIn("Kare Scan", home.text)
         self.assertEqual(self.c.get("/admin").status_code, 200)
         self.assertIn("Disallow: /admin", self.c.get("/robots.txt").text)
         self.assertEqual(self.c.get("/assets/logo-emblem.png").status_code, 200)

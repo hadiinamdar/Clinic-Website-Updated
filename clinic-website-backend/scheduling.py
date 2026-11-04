@@ -17,12 +17,15 @@ WEEKDAY_WINDOWS = (("09:30", "14:00"), ("17:00", "20:30"))  # Monday-Saturday
 SUNDAY_WINDOWS = (("10:30", "12:30"),)
 
 SERVICES = (
+    "Ultrasound / scan",
+    "Fetal medicine and prenatal imaging",
+    "Diagnostic radiology and imaging",
+    # kept so older bookings and any older form still validate
     "In-clinic consultation",
     "Online consultation",
-    "Ultrasound / scan",
     "Health package",
 )
-DEFAULT_SERVICE = SERVICES[0]
+DEFAULT_SERVICE = "In-clinic consultation"
 
 
 class ScheduleError(ValueError):

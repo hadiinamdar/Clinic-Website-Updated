@@ -41,7 +41,7 @@ def booking_messages(settings, appt: dict) -> list[Message]:
                 appt["email"],
                 f"We received your appointment request (Ref #{appt['appointment_id']})",
                 f"Dear {appt['patient_name']},\n\n"
-                "Thank you for choosing Care Scan & Diagnostic Centre. We have received your request:\n\n"
+                "Thank you for choosing Kare Scan Center. We have received your request:\n\n"
                 f"  Reference : #{appt['appointment_id']}\n"
                 f"  Service   : {appt['service']}\n"
                 f"  When      : {_when(appt)}\n\n"

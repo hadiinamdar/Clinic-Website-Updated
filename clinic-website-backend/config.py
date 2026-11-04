@@ -24,8 +24,8 @@ CLINIC_CONFIG_PATH = BASE_DIR / "clinic_config.json"
 
 # Facts printed on the clinic letterhead. Used in e-mails and the admin page.
 CLINIC = {
-    "name": "Care Scan & Diagnostic Centre",
-    "tagline": "the care u can trust",
+    "name": "Kare Scan Center",
+    "tagline": "Diagnostic imaging, since 2004",
     "address": "#183, A.G. Heights, K.B.A.R Road, Austin Town, Bengaluru - 560047",
     "phones": ["9880735614", "9739549031"],
     "email": "karediagnosticslab@gmail.com",

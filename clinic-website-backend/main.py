@@ -20,7 +20,7 @@ settings = get_settings()
 
 app = FastAPI(
     title="Clinic Management API",
-    description="Backend API for the Care Scan & Diagnostic Centre website",
+    description="Backend API for the Kare Scan Center website",
     version="2.0.0",
     docs_url=None if settings.is_production else "/docs",
     redoc_url=None,
